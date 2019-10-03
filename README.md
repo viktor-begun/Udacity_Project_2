@@ -6,6 +6,8 @@
 
 The [**Gapminder World**](https://www.gapminder.org/data/) dataset is selected. 
 
+For the general information about demographic transitions see, for example, [the wiki page](https://en.wikipedia.org/wiki/Demographic_transition).
+
 ### The questions to investigate:
 1. When Russians changed their reproductive behavior and decided to have smaller number of children? 
 2. How fast the transition happened? 
