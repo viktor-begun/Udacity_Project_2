@@ -14,9 +14,11 @@ For the general information about demographic transitions see, for example, [the
 3. Does the transition **correlate** with any possibly related indicator?
 
 One of the most interesting outcomes is the number of people survived up to their 35 years versus abortions, see the figure below.
-<img src="output_78_0.png" width="100%">
+<img src="output_78_0.png" width="75%">
 
 The number of survived children is approximately constant for decades, while the number of abortions varies widely.
+
+The whole project can be found in the `Investigate_a_Dataset_2.md` file. 
 
 ### Conclusions:
 1. The analysed data suggest that demographic transition in Russia occured in **three stages**.
