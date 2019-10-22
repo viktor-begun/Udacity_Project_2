@@ -1,6 +1,4 @@
-## Data Analyst Nanodegree Program from [Udacity](https://www.udacity.com/) Chapter 2. Introduction to Data Analysis
-
-# Title of the Project: Demographic transition in Russia
+# Demographic transition in Russia
 
 **Purpose:** to **investigate a large freely available dataset** and **go through all typical analysis stages**. Namely, state some clear questions, clean the dataset, explore the data, document all steps, find the answers, use at least two types of visualisations, communicate the findings, explain the limitattions of the analysis and of the conclusions.
 
