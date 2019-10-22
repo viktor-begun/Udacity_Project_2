@@ -2,9 +2,9 @@
 
 # Title of the Project: Demographic transition in Russia
 
-**Purpose:** to **investigate a large freely available dataset** and **go through all typical analysis stages**. Namely, state some clear questions, clean the dataset, explore the data, document all steps, find the answers, use at least two type of visualisations, communicate the findings, explain the limitattions of the analysis and of the conclusions.
+**Purpose:** to **investigate a large freely available dataset** and **go through all typical analysis stages**. Namely, state some clear questions, clean the dataset, explore the data, document all steps, find the answers, use at least two types of visualisations, communicate the findings, explain the limitattions of the analysis and of the conclusions.
 
-The [**Gapminder World**](https://www.gapminder.org/data/) dataset is selected. The reason to look at the demography is that migration politics is often in the news and in private talks. I wanted to have a look myself on the data for a country which history I know well. The data for Ukraine before 1991 in `Gapminder World` seem to be taken as the average for the data on Russia. However, the data for Russia include also the Soviet Union and the Russian Empire. Therefore, Russia were selected.  
+The [**Gapminder World**](https://www.gapminder.org/data/) dataset is selected. The reason to look at demography is that migration politics is often in the news and in private talks. I wanted to have a look myself on the data for a country which history I know well. The data for Ukraine before 1991 in `Gapminder World` seems to be taken as the average for the data on Russia. However, the data for Russia include also the Soviet Union and the Russian Empire. Therefore, Russia were selected.  
 
 While working on the project I observed that many features in the data can be understood as a [`demographic transition`](https://en.wikipedia.org/wiki/Demographic_transition). Therefore, the following questions to the data were formulated.
 
@@ -13,14 +13,15 @@ While working on the project I observed that many features in the data can be un
 2. **How fast** the transition happened? 
 3. Does the transition **correlate** with any possibly related indicator?
 
-One of the most interesting outcomes is that the number of children per woman is an approximately constant natural number. From 1965 to 1990 it is 2, while from 1995 to 2010 it is 1, see the figure below.
-
-<img src="output_78_0.png" width="75%">
-The number of children survived up to their 35 years per woman versus abortions per woman.
-
-The second surprising fac is that the hardest year to survive in Russia during the whole 20th century was not during the WW2, but in 1933, see  the figure below.
+Apart from finding answers to the listed questions, some surprising observations occured. Namely, **the worst year to be born** and then survive up to 35 years **in Russia** during the whole 20th century was not during the World War II, but in **1933**, see the figure below.
 <img src="output_49_0.png" width="75%">
+It may be linked with the [Collectivization](https://en.wikipedia.org/wiki/Collectivization_in_the_Soviet_Union) and the following [great famine in the Soviet Union](https://en.wikipedia.org/wiki/Soviet_famine_of_1932%E2%80%9333), see also [Holodomor](https://en.wikipedia.org/wiki/Holodomor).
 
+Another surprising finding is that **the *average* number of born children per woman** is an approximately constant number for long periods of time. From 1965 to 1990 it is approximately 2, while from 1995 to 2010 it is approximately 1.
+
+The year of [**Chernobyl nuclear power plant explosion**](https://en.wikipedia.org/wiki/Chernobyl_disaster) was the best for the number of survived kids per woman from 1964 until now, see the figure below.
+<img src="output_78_0.png" width="75%">
+Each point is a year.
 
 The whole project can be found in the `Investigate_a_Dataset_2.md` file. 
 
