@@ -107,12 +107,12 @@ print('*** info ***\n',fertility_rate[:5].info)
     3                Albania  4.60  4.60  4.60  4.60  4.60  4.60  4.60  4.60   
     4                Algeria  6.99  6.99  6.99  6.99  6.99  6.99  6.99  6.99   
     
-       1808  ...   2006  2007  2008  2009  2010  2011  2012  2013  2014  2015  
-    0   NaN  ...    NaN   NaN   NaN   NaN   NaN   NaN   NaN   NaN   NaN   NaN  
-    1  7.00  ...   6.70  6.46  6.20  5.93  5.66  5.40  5.14  4.90  4.68  4.47  
-    2   NaN  ...    NaN   NaN   NaN   NaN   NaN   NaN   NaN   NaN   NaN   NaN  
-    3  4.60  ...   1.85  1.80  1.76  1.74  1.74  1.75  1.76  1.77  1.78  1.78  
-    4  6.99  ...   2.58  2.66  2.73  2.78  2.82  2.83  2.82  2.80  2.76  2.71  
+       1808  ...  2006  2007  2008  2009  2010  2011  2012  2013  2014  2015  
+    0   NaN  ...   NaN   NaN   NaN   NaN   NaN   NaN   NaN   NaN   NaN   NaN  
+    1  7.00  ...  6.70  6.46  6.20  5.93  5.66  5.40  5.14  4.90  4.68  4.47  
+    2   NaN  ...   NaN   NaN   NaN   NaN   NaN   NaN   NaN   NaN   NaN   NaN  
+    3  4.60  ...  1.85  1.80  1.76  1.74  1.74  1.75  1.76  1.77  1.78  1.78  
+    4  6.99  ...  2.58  2.66  2.73  2.78  2.82  2.83  2.82  2.80  2.76  2.71  
     
     [5 rows x 217 columns]>
     
@@ -132,26 +132,26 @@ print('*** info ***\n',surviving_kids[:5].info)
     shape:		 (197, 256)
     dropna().shape:	 (2, 256)
     *** info ***
-     <bound method DataFrame.info of        Country  1760  1761  1762  1763  1764  1765  1766  1767  1768  \
-    0  Afghanistan   NaN   NaN   NaN   NaN   NaN   NaN   NaN   NaN   NaN   
-    1      Albania   NaN   NaN   NaN   NaN   NaN   NaN   NaN   NaN   NaN   
-    2      Algeria   NaN   NaN   NaN   NaN   NaN   NaN   NaN   NaN   NaN   
-    3       Angola   NaN   NaN   NaN   NaN   NaN   NaN   NaN   NaN   NaN   
-    4    Argentina   NaN   NaN   NaN   NaN   NaN   NaN   NaN   NaN   NaN   
+     <bound method DataFrame.info of        Country  1760  1761  1762  1763  1764  1765  1766  1767  1768  ...  \
+    0  Afghanistan   NaN   NaN   NaN   NaN   NaN   NaN   NaN   NaN   NaN  ...   
+    1      Albania   NaN   NaN   NaN   NaN   NaN   NaN   NaN   NaN   NaN  ...   
+    2      Algeria   NaN   NaN   NaN   NaN   NaN   NaN   NaN   NaN   NaN  ...   
+    3       Angola   NaN   NaN   NaN   NaN   NaN   NaN   NaN   NaN   NaN  ...   
+    4    Argentina   NaN   NaN   NaN   NaN   NaN   NaN   NaN   NaN   NaN  ...   
     
-         ...         2005      2006      2007      2008      2009      2010  \
-    0    ...     4.640845  4.541256  4.448306  4.444350  4.349501  4.261427   
-    1    ...     1.677838  1.611106  1.563440  1.515774  1.493861  1.474709   
-    2    ...     2.272803  2.254173  2.216914  2.188970  2.166401  2.119510   
-    3    ...     4.304105  4.193566  4.076119  4.041242  3.928594  3.900603   
-    4    ...     2.172529  2.153555  2.134581  2.125094  2.125898  2.106831   
+           2005      2006      2007      2008      2009      2010      2020  \
+    0  4.640845  4.541256  4.448306  4.444350  4.349501  4.261427  3.685452   
+    1  1.677838  1.611106  1.563440  1.515774  1.493861  1.474709  1.394117   
+    2  2.272803  2.254173  2.216914  2.188970  2.166401  2.119510  1.793048   
+    3  4.304105  4.193566  4.076119  4.041242  3.928594  3.900603  3.266809   
+    4  2.172529  2.153555  2.134581  2.125094  2.125898  2.106831  1.972662   
     
-           2020      2030      2050      2099  
-    0  3.685452  3.130587  2.395757  1.783561  
-    1  1.394117  1.422960  1.616161  1.935956  
-    2  1.793048  1.608773  1.620913  1.927607  
-    3  3.266809  2.678142  2.072378  1.754104  
-    4  1.972662  1.881417  1.796143  1.916302  
+           2030      2050      2099  
+    0  3.130587  2.395757  1.783561  
+    1  1.422960  1.616161  1.935956  
+    2  1.608773  1.620913  1.927607  
+    3  2.678142  2.072378  1.754104  
+    4  1.881417  1.796143  1.916302  
     
     [5 rows x 256 columns]>
     
@@ -178,19 +178,19 @@ print('*** info ***\n',urban_population[:5].info)
     3                       Albania  30.7  30.8100  30.9150  31.0200  31.1250   
     4                       Algeria  30.5  31.9366  33.3632  34.7898  36.2164   
     
-         1965     1966     1967     1968   ...        2002     2003     2004  \
-    0     NaN      NaN      NaN      NaN   ...         NaN      NaN      NaN   
-    1   9.353   9.6886  10.0242  10.3598   ...     21.1026  21.3624  21.6222   
-    2     NaN      NaN      NaN      NaN   ...         NaN      NaN      NaN   
-    3  31.230  31.3320  31.4340  31.5360   ...     43.7662  44.7788  45.7914   
-    4  37.643  38.0144  38.3858  38.7572   ...     63.1478  64.3282  65.5086   
+         1965     1966     1967     1968  ...     2002     2003     2004    2005  \
+    0     NaN      NaN      NaN      NaN  ...      NaN      NaN      NaN     NaN   
+    1   9.353   9.6886  10.0242  10.3598  ...  21.1026  21.3624  21.6222  21.882   
+    2     NaN      NaN      NaN      NaN  ...      NaN      NaN      NaN     NaN   
+    3  31.230  31.3320  31.4340  31.5360  ...  43.7662  44.7788  45.7914  46.804   
+    4  37.643  38.0144  38.3858  38.7572  ...  63.1478  64.3282  65.5086  66.689   
     
-         2005     2006     2007     2008     2009    2010     2011  
-    0     NaN      NaN      NaN      NaN      NaN     NaN      NaN  
-    1  21.882  22.1534  22.4248  22.6962  22.9676  23.239  23.5472  
-    2     NaN      NaN      NaN      NaN      NaN     NaN      NaN  
-    3  46.804  47.9076  49.0112  50.1148  51.2184  52.322  53.3846  
-    4  66.689  67.7560  68.8230  69.8900  70.9570  72.024  72.8650  
+          2006     2007     2008     2009    2010     2011  
+    0      NaN      NaN      NaN      NaN     NaN      NaN  
+    1  22.1534  22.4248  22.6962  22.9676  23.239  23.5472  
+    2      NaN      NaN      NaN      NaN     NaN      NaN  
+    3  47.9076  49.0112  50.1148  51.2184  52.322  53.3846  
+    4  67.7560  68.8230  69.8900  70.9570  72.024  72.8650  
     
     [5 rows x 53 columns]>
     
@@ -217,12 +217,12 @@ print('*** info ***\n',school_woman[:5].info)
     3               Angola   0.9   1.0   1.0   1.1   1.1   1.2   1.2   1.3   1.4   
     4  Antigua and Barbuda   8.1   8.3   8.5   8.7   8.8   9.0   9.2   9.4   9.6   
     
-       ...   2000  2001  2002  2003  2004  2005  2006  2007  2008  2009  
-    0  ...    0.5   0.5   0.5   0.6   0.6   0.6   0.7   0.7   0.7   0.8  
-    1  ...    9.8   9.9  10.0  10.1  10.2  10.3  10.4  10.5  10.6  10.7  
-    2  ...    5.8   5.9   6.1   6.2   6.4   6.5   6.7   6.8   6.9   7.1  
-    3  ...    3.5   3.6   3.7   3.8   3.9   4.0   4.1   4.3   4.4   4.5  
-    4  ...   12.7  12.8  12.9  13.0  13.1  13.2  13.3  13.3  13.4  13.5  
+       ...  2000  2001  2002  2003  2004  2005  2006  2007  2008  2009  
+    0  ...   0.5   0.5   0.5   0.6   0.6   0.6   0.7   0.7   0.7   0.8  
+    1  ...   9.8   9.9  10.0  10.1  10.2  10.3  10.4  10.5  10.6  10.7  
+    2  ...   5.8   5.9   6.1   6.2   6.4   6.5   6.7   6.8   6.9   7.1  
+    3  ...   3.5   3.6   3.7   3.8   3.9   4.0   4.1   4.3   4.4   4.5  
+    4  ...  12.7  12.8  12.9  13.0  13.1  13.2  13.3  13.3  13.4  13.5  
     
     [5 rows x 41 columns]>
     
@@ -249,12 +249,12 @@ print('*** info ***\n',school_man[:5].info)
     3               Angola   2.3   2.4   2.5   2.7   2.8   2.9   3.0   3.1   3.2   
     4  Antigua and Barbuda   8.0   8.2   8.4   8.6   8.7   8.9   9.1   9.3   9.5   
     
-       ...   2000  2001  2002  2003  2004  2005  2006  2007  2008  2009  
-    0  ...    2.8   2.9   2.9   3.0   3.0   3.1   3.1   3.2   3.3   3.3  
-    1  ...   10.4  10.4  10.5  10.6  10.7  10.7  10.8  10.9  10.9  11.0  
-    2  ...    6.3   6.5   6.6   6.7   6.8   7.0   7.1   7.2   7.3   7.3  
-    3  ...    5.5   5.6   5.7   5.8   5.8   5.9   6.0   6.0   6.1   6.2  
-    4  ...   12.5  12.6  12.7  12.8  12.8  12.9  13.0  13.0  13.1  13.2  
+       ...  2000  2001  2002  2003  2004  2005  2006  2007  2008  2009  
+    0  ...   2.8   2.9   2.9   3.0   3.0   3.1   3.1   3.2   3.3   3.3  
+    1  ...  10.4  10.4  10.5  10.6  10.7  10.7  10.8  10.9  10.9  11.0  
+    2  ...   6.3   6.5   6.6   6.7   6.8   7.0   7.1   7.2   7.3   7.3  
+    3  ...   5.5   5.6   5.7   5.8   5.8   5.9   6.0   6.0   6.1   6.2  
+    4  ...  12.5  12.6  12.7  12.8  12.8  12.9  13.0  13.0  13.1  13.2  
     
     [5 rows x 41 columns]>
     
@@ -281,19 +281,19 @@ print('*** info ***\n',gdp_capita[:5].info)
     3                Albania  667.0  667.0  668.0  668.0  668.0  668.0  668.0   
     4                Algeria  716.0  716.0  717.0  718.0  719.0  720.0  721.0   
     
-        1807   1808   ...        2006     2007     2008     2009     2010  \
-    0    NaN    NaN   ...         NaN      NaN      NaN      NaN      NaN   
-    1  603.0  603.0   ...      1173.0   1298.0   1311.0   1548.0   1637.0   
-    2    NaN    NaN   ...         NaN      NaN      NaN      NaN      NaN   
-    3  668.0  668.0   ...      7476.0   7977.0   8644.0   8994.0   9374.0   
-    4  722.0  723.0   ...     12088.0  12289.0  12314.0  12285.0  12494.0   
+        1807   1808  ...     2006     2007     2008     2009     2010     2011  \
+    0    NaN    NaN  ...      NaN      NaN      NaN      NaN      NaN      NaN   
+    1  603.0  603.0  ...   1173.0   1298.0   1311.0   1548.0   1637.0   1695.0   
+    2    NaN    NaN  ...      NaN      NaN      NaN      NaN      NaN      NaN   
+    3  668.0  668.0  ...   7476.0   7977.0   8644.0   8994.0   9374.0   9640.0   
+    4  722.0  723.0  ...  12088.0  12289.0  12314.0  12285.0  12494.0  12606.0   
     
-          2011     2012     2013     2014     2015  
-    0      NaN      NaN      NaN      NaN      NaN  
-    1   1695.0   1893.0   1884.0   1877.0   1925.0  
-    2      NaN      NaN      NaN      NaN      NaN  
-    3   9640.0   9811.0   9961.0  10160.0  10620.0  
-    4  12606.0  12779.0  12893.0  13179.0  13434.0  
+          2012     2013     2014     2015  
+    0      NaN      NaN      NaN      NaN  
+    1   1893.0   1884.0   1877.0   1925.0  
+    2      NaN      NaN      NaN      NaN  
+    3   9811.0   9961.0  10160.0  10620.0  
+    4  12779.0  12893.0  13179.0  13434.0  
     
     [5 rows x 217 columns]>
     
@@ -310,28 +310,20 @@ print('dropna().shape:\t',sng_abo.dropna().shape)
 print('*** info ***\n',sng_abo[3:5].info)
 ```
 
-    shape:		 (79, 18)
+    shape:		 (80, 18)
     dropna().shape:	 (0, 18)
     *** info ***
-     <bound method DataFrame.info of    Unnamed: 0  \
-    3         NaN   
-    4         NaN   
+     <bound method DataFrame.info of    Unnamed: 0 Unnamed: 1   Unnamed: 2 Unnamed: 3  Unnamed: 4 Unnamed: 5  \
+    3         NaN        Год       Страна        NaN         NaN        NaN   
+    4         NaN        NaN  Азербайджан    Армения  Белоруссия     Грузия   
     
-      15 новых независимых государств. Число абортов на 100 живорождений, 1960-2016  \
-    3                                                NaN                              
-    4                                               1960                              
+      Unnamed: 6 Unnamed: 7 Unnamed: 8 Unnamed: 9 Unnamed: 10 Unnamed: 11  \
+    3        NaN        NaN        NaN        NaN         NaN         NaN   
+    4  Казахстан   Киргизия     Латвия      Литва    Молдавия      Россия   
     
-        Unnamed: 2 Unnamed: 3  Unnamed: 4 Unnamed: 5 Unnamed: 6 Unnamed: 7  \
-    3  Азербайджан    Армения  Белоруссия     Грузия  Казахстан   Киргизия   
-    4            -          -     85.3005    41.6406          -          -   
-    
-      Unnamed: 8 Unnamed: 9 Unnamed: 10 Unnamed: 11  Unnamed: 12 Unnamed: 13  \
-    3     Латвия      Литва    Молдавия      Россия  Таджикистан   Туркмения   
-    4          -     58.414     69.0331      157.17            -           -   
-    
-      Unnamed: 14 Unnamed: 15 Unnamed: 16 Unnamed: 17  
-    3  Узбекистан     Украина     Эстония         NaN  
-    4           -     138.072     177.912        1960  >
+       Unnamed: 12 Unnamed: 13 Unnamed: 14 Unnamed: 15 Unnamed: 16 Unnamed: 17  
+    3          NaN         NaN         NaN         NaN         NaN         Год  
+    4  Таджикистан   Туркмения  Узбекистан     Украина     Эстония         NaN  >
     
 
 ### The names in 'sng_abo' appear in cyrilic, since it is a russian source of data.
@@ -369,7 +361,7 @@ print(school_man.loc['Russia'][:5])
 print('gdp_capita\n',end='')
 print(gdp_capita.loc['Russia'][:5])
 print('Russia_abortions\n',end='')
-russia_abo = sng_abo.iloc[4:61,11]
+russia_abo = sng_abo.iloc[5:61,11]
 print(russia_abo[:5])
 ```
 
@@ -416,11 +408,11 @@ print(russia_abo[:5])
     1804    1437.0
     Name: Russia, dtype: float64
     Russia_abortions
-    4    157.17
-    5    178.77
-    6    198.39
-    7    220.21
-    8    253.36
+    5    157.17
+    6    178.77
+    7    198.39
+    8    220.21
+    9    253.36
     Name: Unnamed: 11, dtype: object
     
 
@@ -436,7 +428,7 @@ years_up = pd.to_numeric(urban_population.columns.tolist()[0:])
 years_sw = pd.to_numeric(school_woman.columns.tolist()[0:])
 years_sm = pd.to_numeric(school_man.columns.tolist()[0:])
 years_gdp = pd.to_numeric(gdp_capita.columns.tolist()[0:])
-years_abo = pd.to_numeric(sng_abo.iloc[4:61,1])
+years_abo = pd.to_numeric(sng_abo.iloc[5:61,1])
 ```
 
 ##### Check the difference between consecutive years
@@ -460,17 +452,17 @@ print('np.diff(years_abo)\n',np.diff(years_abo))
      1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
      1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
     np.diff(years_sk)
-     [ 1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1
-      1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1
-      1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1
-      1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1
-      1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1
-      1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1
-      1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1
-      1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1
-      1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1
-      1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1
-     10 10 20 49]
+     [ 1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1
+      1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1
+      1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1
+      1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1
+      1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1
+      1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1
+      1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1
+      1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1
+      1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1
+      1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1
+      1  1  1  1  1  1  1  1  1  1 10 10 20 49]
     np.diff(years_up)
      [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
      1 1 1 1 1 1 1 1 1 1 1 1 1 1]
@@ -489,7 +481,7 @@ print('np.diff(years_abo)\n',np.diff(years_abo))
      1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
     np.diff(years_abo)
      [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
-     1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+     1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
     
 
 ### All the years run with a constant step of 1 year, except for the last four values for 'years_sk'.
@@ -504,7 +496,142 @@ years_sk[-6:]
 
 
 
-    array([2009, 2010, 2020, 2030, 2050, 2099])
+    array([2009, 2010, 2020, 2030, 2050, 2099], dtype=int64)
+
+
+
+
+```python
+years_abo[1:]
+```
+
+
+
+
+    6     1961
+    7     1962
+    8     1963
+    9     1964
+    10    1965
+    11    1966
+    12    1967
+    13    1968
+    14    1969
+    15    1970
+    16    1971
+    17    1972
+    18    1973
+    19    1974
+    20    1975
+    21    1976
+    22    1977
+    23    1978
+    24    1979
+    25    1980
+    26    1981
+    27    1982
+    28    1983
+    29    1984
+    30    1985
+    31    1986
+    32    1987
+    33    1988
+    34    1989
+    35    1990
+    36    1991
+    37    1992
+    38    1993
+    39    1994
+    40    1995
+    41    1996
+    42    1997
+    43    1998
+    44    1999
+    45    2000
+    46    2001
+    47    2002
+    48    2003
+    49    2004
+    50    2005
+    51    2006
+    52    2007
+    53    2008
+    54    2009
+    55    2010
+    56    2011
+    57    2012
+    58    2013
+    59    2014
+    60    2015
+    Name: Unnamed: 1, dtype: int64
+
+
+
+
+```python
+russia_abo
+```
+
+
+
+
+    5      157.17
+    6      178.77
+    7      198.39
+    8      220.21
+    9      253.36
+    10     274.47
+    11     271.87
+    12     270.39
+    13     268.26
+    14     257.15
+    15     254.12
+    16     245.04
+    17     236.56
+    18     237.99
+    19     224.73
+    20     221.77
+    21      221.6
+    22     217.28
+    23     213.68
+    24     208.42
+    25     204.57
+    26     196.76
+    27      191.7
+    28      174.2
+    29     181.02
+    30    187.542
+    31    156.549
+    32    148.879
+    33    169.642
+    34    179.408
+    35      205.9
+    36    201.067
+    37    216.465
+    38    235.246
+    39    217.319
+    40      202.6
+    41    203.278
+    42     198.32
+    43    182.822
+    44    179.565
+    45      168.7
+    46      153.6
+    47      139.2
+    48      128.7
+    49        122
+    50      117.4
+    51      107.2
+    52       92.1
+    53       81.1
+    54         74
+    55       66.6
+    56         63
+    57       56.2
+    58       53.7
+    59       48.1
+    60         44
+    Name: Unnamed: 11, dtype: object
 
 
 
@@ -512,23 +639,23 @@ years_sk[-6:]
 
 
 ```python
-plt.figure(figsize=(12,6))
+plt.figure(figsize=(12,6),dpi=300)
 plt.plot(years_fr, fertility_rate.loc['Russia'],   label='fertility rate')
 plt.plot(years_sk, surviving_kids.loc['Russia'],   label='surviving up to 35')
 plt.plot(years_up, urban_population.loc['Russia']/10, label='(urban population in %) / 10')
 plt.plot(years_sw, school_woman.loc['Russia']/2,     label='school_woman/2')
 plt.plot(years_sm, school_man.loc['Russia']/2,       label='school_man/2')
-plt.plot(years_gdp[100:211], np.log(gdp_capita.loc['Russia'][100:211])/2,  label='log(gdp per capita)/2')
+plt.plot(years_gdp[100:211], np.log(gdp_capita.loc['Russia'][100:211])/2,  label='log(gdp per capita)/2')#
 plt.plot(years_abo, russia_abo/100,                label='abortions per 1 birth')
-plt.title("Fig.1: Russia 1800-2100")
-plt.ylabel("indicators")
-plt.xlabel('years')
+plt.title("Fig.1: Russia in 1800-2100 years", fontsize=18)
+plt.ylabel("indicators", fontsize=18)
+plt.xlabel('years', fontsize=18)
 plt.legend(bbox_to_anchor=(1, 1))
 plt.show()
 ```
 
 
-![png](output_37_0.png)
+![png](output_39_0.png)
 
 
 ### One can see that number of years in school and urban population change smoothly and slowly, while other indicators, including the fertility rate and the number of kids surviving up to 35, have rapid changes.
@@ -573,7 +700,7 @@ abo_imin = years_abo.idxmin(axis=0)
 print('The first available year is {} with the index {}.'.format(years_abo[abo_imin],abo_imin))
 ```
 
-    The first available year is 1960 with the index 4.
+    The first available year is 1960 with the index 5.
     
 
 <a id='eda'></a>
@@ -586,19 +713,23 @@ print('The first available year is {} with the index {}.'.format(years_abo[abo_i
 
 
 ```python
-plt.figure(figsize=(10,5))
+plt.figure(figsize=(10,5),dpi=300)
 plt.plot(years_fr[100:211], fertility_rate.loc['Russia'][100:211],   label='fertility rate')
 plt.plot(years_sk[140:251], surviving_kids.loc['Russia'][140:251],   label='surviving up to 35')
 plt.plot(years_gdp[100:211], gdp_capita.loc['Russia'][100:211]/5000,  label='gdp per capita / 5000') #np.log()/2
-plt.title('Fig. 2: Russia in 1900-2010')
-plt.ylabel("indicators")
-plt.xlabel('years')
+
+plt.annotate('1933', xy=(1933, 0.48), xytext=(1933, -1),
+            arrowprops=dict(facecolor='black', shrink=0.05, width=1, headwidth=7)) 
+
+plt.title('Fig. 2: Russia in 1900-2010 years', fontsize=18)
+plt.ylabel("indicators", fontsize=18)
+plt.xlabel('years', fontsize=18)
 plt.legend(bbox_to_anchor=(1, 1))
 plt.show()
 ```
 
 
-![png](output_49_0.png)
+![png](output_51_0.png)
 
 
 ### The number of surviving people is vital for the survival of the population. Therefore, we start the analysis from the 'surviving up to 35' indicator.
@@ -665,20 +796,20 @@ for i in range(0,len(ymax)):
 
 
 ```python
-plt.figure(figsize=(15,5))
+plt.figure(figsize=(10,5),dpi=300)
 plt.plot(years_sk[140:251], surviving_kids.loc['Russia'][140:251],   label='surviving up to 35')
 plt.plot(years_sk[140:251], fertility_rate.loc['Russia'][100:211] - surviving_kids.loc['Russia'][140:251],   
          label='mortality before 35')
 plt.plot(years_gdp[100:211], gdp_capita.loc['Russia'][100:211]/5000,  label='gdp per capita / 5000')
-plt.title('Fig. 3: Russia in 1900-2010')
-plt.ylabel("indicators")
-plt.xlabel('years')
+plt.title('Fig. 3: Russia in 1900-2010 years', fontsize=18)
+plt.ylabel("indicators", fontsize=18)
+plt.xlabel('years', fontsize=18)
 plt.legend(bbox_to_anchor=(1, 1))
 plt.show()
 ```
 
 
-![png](output_66_0.png)
+![png](output_68_0.png)
 
 
 ### One can see from Fig. 3 that the 'mortality before 35' decreases after 1920. The wars and famines give local maxima, which, however, are lower than the previous ones.
@@ -721,25 +852,25 @@ print(years_abo.iloc[index_abo])
 print(russia_abo.iloc[index_abo]/100)
 ```
 
-    4     1960
-    9     1965
-    14    1970
-    24    1980
-    30    1986
-    34    1990
-    39    1995
-    44    2000
-    54    2010
-    Name: 15 новых независимых государств. Число абортов на 100 живорождений, 1960-2016, dtype: int64
-    4      1.5717
-    9      2.7447
-    14     2.5412
-    24     2.0457
-    30    1.56549
-    34      2.059
-    39      2.026
-    44      1.687
-    54      0.666
+    5     1960
+    10    1965
+    15    1970
+    25    1980
+    31    1986
+    35    1990
+    40    1995
+    45    2000
+    55    2010
+    Name: Unnamed: 1, dtype: int64
+    5      1.5717
+    10     2.7447
+    15     2.5412
+    25     2.0457
+    31    1.56549
+    35      2.059
+    40      2.026
+    45      1.687
+    55      0.666
     Name: Unnamed: 11, dtype: object
     
 
@@ -766,11 +897,11 @@ print(surviving_kids.loc['Russia'].iloc[index_sk])
 
 
 ```python
-plt.figure(figsize=(9,7))
+plt.figure(figsize=(9,7),dpi=300)
 plt.plot(russia_abo[0:51]/100, surviving_kids.loc['Russia'][200:251], '-o' ,   label='surviving up to 35')
-plt.title('Fig. 4: Russia in 1960-2010')
-plt.ylabel("Survived up to 35 years")
-plt.xlabel('Abortions per 1 birth')
+plt.title('Fig. 4: Russia in 1960-2010 years', fontsize=18)
+plt.ylabel("Survived up to 35 years", fontsize=18)
+plt.xlabel('Abortions per 1 birth', fontsize=18)
 plt.annotate('1960', xy=(1.57, 2.47), xytext=(1.2, 2.4),
             arrowprops=dict(facecolor='black', shrink=0.05, width=1, headwidth=7))
 plt.annotate('1965', xy=(2.74, 2.06), xytext=(2.5, 2.3),
@@ -793,7 +924,7 @@ plt.show()
 ```
 
 
-![png](output_78_0.png)
+![png](output_80_0.png)
 
 
 ### Figure 4 shows that the number of children was for a long time close to 2 and then to 1 child, almost independently on the number of abortions. It may indicate dominating social models of 2 and 1 children per family, correspondingly. The further pregnancies were, probably, considered as unwanted and aborted.
@@ -819,8 +950,9 @@ print('surviving_kids index:',index_sk)
 
 
 ```python
-f, (ax1, ax2, ax3, ax4) = plt.subplots(1 , 4, sharey=True , figsize=(20, 6))
-ax1.set_title('Fig. 5: The probability for a woman to have a certain number of children in different years')
+f, (ax1, ax2, ax3, ax4) = plt.subplots(1 , 4, sharey=True , figsize=(15, 4),dpi=300)
+#ax1.set_title('Fig. 5: The probability for a woman to have a certain number of children in different years', fontsize=18)
+f.suptitle('Fig. 5: The probability for a woman to have a certain number of children in different years', fontsize=18)
 
 ax1.hist(surviving_kids.loc['Russia'][40:160], bins = 10, rwidth = 0.95, range = (0,4), normed=1, alpha = 0.7, label = '1800-1920')
 ax2.hist(surviving_kids.loc['Russia'][160:200], bins = 10, rwidth = 0.95, range = (0,4), normed=1, alpha = 0.7, label = '1920-1960')
@@ -835,8 +967,22 @@ ax4.legend()
 plt.show()
 ```
 
+    C:\ProgramData\Anaconda3\lib\site-packages\matplotlib\axes\_axes.py:6521: MatplotlibDeprecationWarning: 
+    The 'normed' kwarg was deprecated in Matplotlib 2.1 and will be removed in 3.1. Use 'density' instead.
+      alternative="'density'", removal="3.1")
+    C:\ProgramData\Anaconda3\lib\site-packages\matplotlib\axes\_axes.py:6521: MatplotlibDeprecationWarning: 
+    The 'normed' kwarg was deprecated in Matplotlib 2.1 and will be removed in 3.1. Use 'density' instead.
+      alternative="'density'", removal="3.1")
+    C:\ProgramData\Anaconda3\lib\site-packages\matplotlib\axes\_axes.py:6521: MatplotlibDeprecationWarning: 
+    The 'normed' kwarg was deprecated in Matplotlib 2.1 and will be removed in 3.1. Use 'density' instead.
+      alternative="'density'", removal="3.1")
+    C:\ProgramData\Anaconda3\lib\site-packages\matplotlib\axes\_axes.py:6521: MatplotlibDeprecationWarning: 
+    The 'normed' kwarg was deprecated in Matplotlib 2.1 and will be removed in 3.1. Use 'density' instead.
+      alternative="'density'", removal="3.1")
+    
 
-![png](output_83_0.png)
+
+![png](output_85_1.png)
 
 
 ### One can see that the number of children per woman decreases from 3 to 2 and to 1 child.
@@ -849,21 +995,21 @@ a = russia_abo[0:51]/100
 b = surviving_kids.loc['Russia'][200:251]
 pregnancies = [i * j +j for i, j in zip(a, b)]
 
-plt.figure(figsize=(10,5))
+plt.figure(figsize=(10,5),dpi=300)
 plt.plot(years_sk[200:251], pregnancies[0:51],   label='pregnancies')
 plt.plot(years_sk[200:251], surviving_kids.loc['Russia'][200:251],   label='surviving up to 35')
 plt.plot(years_fr[160:211], fertility_rate.loc['Russia'][160:211],   label='fertility rate')
 plt.plot(years_gdp[160:211], gdp_capita.loc['Russia'][160:211]/5000,  label='gdp per capita / 5000')
 #plt.plot(years_abo, russia_abo/100,                label='abortions per 1 birth')
-plt.title('Fig. 6: Russia in 1960-2010')
-plt.ylabel("indicators")
-plt.xlabel('years')
+plt.title('Fig. 6: Russia in 1960-2010 years', fontsize=18)
+plt.ylabel("indicators", fontsize=18)
+plt.xlabel('years', fontsize=18)
 plt.legend(bbox_to_anchor=(1, 1))
 plt.show()
 ```
 
 
-![png](output_86_0.png)
+![png](output_88_0.png)
 
 
 ### One can see that before 1990 the number of 'pregnancies' was on the level of 5-8 per woman, similarly to the number of births before 1920.
@@ -941,10 +1087,10 @@ ax2.pie(sizes2, explode=explode2, labels=labels2, autopct='%1.1f%%', shadow=True
 ax3.pie(sizes3, explode=explode3, labels=labels3, autopct='%1.1f%%', shadow=True, startangle=90)
 ax4.pie(sizes4, explode=explode4, labels=labels4, autopct='%1.1f%%', shadow=True, startangle=90)
 
-ax1.axis('equal')
-ax2.axis('equal')
-ax3.axis('equal')
-ax4.axis('equal')
+#ax1.axis('equal')
+#ax2.axis('equal')
+#ax3.axis('equal')
+#ax4.axis('equal')
 
 #ax1.legend()
 #ax2.legend()
@@ -954,7 +1100,7 @@ plt.show()
 ```
 
 
-![png](output_94_0.png)
+![png](output_96_0.png)
 
 
 ### The decrease of the number of 'pregnancies' after 1990 could be the effect of the free market introduction after the fall of the USSR, which made available effective contraception pills and other methods than abortions.
@@ -1039,23 +1185,23 @@ print(years_abo.iloc[index_abo])
 print(russia_abo.iloc[index_abo]/100)
 ```
 
-    4     1960
-    9     1965
-    29    1985
-    34    1990
-    39    1995
-    44    2000
-    49    2005
-    54    2010
-    Name: 15 новых независимых государств. Число абортов на 100 живорождений, 1960-2016, dtype: int64
-    4      1.5717
-    9      2.7447
-    29    1.87542
-    34      2.059
-    39      2.026
-    44      1.687
-    49      1.174
-    54      0.666
+    5     1960
+    10    1965
+    30    1985
+    35    1990
+    40    1995
+    45    2000
+    50    2005
+    55    2010
+    Name: Unnamed: 1, dtype: int64
+    5      1.5717
+    10     2.7447
+    30    1.87542
+    35      2.059
+    40      2.026
+    45      1.687
+    50      1.174
+    55      0.666
     Name: Unnamed: 11, dtype: object
     
 
@@ -1063,7 +1209,7 @@ print(russia_abo.iloc[index_abo]/100)
 
 
 ```python
-plt.figure(figsize=(9,7))
+plt.figure(figsize=(9,7),dpi=300)
 plt.plot(russia_abo[0:51]/100, gdp_capita.loc['Russia'][160:211], '-o',   label='Income per person vs abortions')
 plt.annotate('1960', xy=(1.57, 10496), xytext=(1.2, 10500),
             arrowprops=dict(facecolor='black', shrink=0.05, width=1, headwidth=7))
@@ -1081,15 +1227,15 @@ plt.annotate('2005', xy=(1.17, 18118), xytext=(0.9, 16500),
             arrowprops=dict(facecolor='black', shrink=0.05, width=1, headwidth=7))
 plt.annotate('2010', xy=(0.67, 21664), xytext=(0.7, 19000),
             arrowprops=dict(facecolor='black', shrink=0.05, width=1, headwidth=7))
-plt.title('Fig. 11: Russia in 1960-2010')
-plt.ylabel("GDP/capita, PPP in $, inflation-adjusted")
-plt.xlabel('Abortions per 1 birth')
+plt.title('Fig. 11: Russia in 1960-2010', fontsize=18)
+plt.ylabel("GDP/capita, PPP in $, inflation-adjusted", fontsize=18)
+plt.xlabel('Abortions per 1 birth', fontsize=18)
 plt.legend(bbox_to_anchor=(1, 1))
 plt.show()
 ```
 
 
-![png](output_117_0.png)
+![png](output_119_0.png)
 
 
 ### Figure 6 shows negative correlation between the growth of the GDP and the number of abortions since 1965.
@@ -1109,8 +1255,8 @@ b = russia_abo.iloc[ind_abo]
 print(np.corrcoef(a.astype('float64'),b.astype('float64')))
 ```
 
-    [[ 1.          0.88223328]
-     [ 0.88223328  1.        ]]
+    [[1.         0.88223328]
+     [0.88223328 1.        ]]
     
 
 ##### Correlation between abortions and the GDP from 1965 to 1985.
