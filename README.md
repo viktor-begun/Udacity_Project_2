@@ -15,7 +15,7 @@ While working on the project I observed that many features in the data can be un
 
 Apart from finding answers to the listed questions, some surprising observations occured. Namely, **the worst year to be born** and then survive up to 35 years **in Russia** during the whole 20th century was not during the World War II, but in **1933**, see the figure below.
 
-<img src="output_49_0.png" width="75%">
+<img src="output_51_0.png" width="75%">
 
 It may be linked with the [Collectivization](https://en.wikipedia.org/wiki/Collectivization_in_the_Soviet_Union) and the following [great famine in the Soviet Union](https://en.wikipedia.org/wiki/Soviet_famine_of_1932%E2%80%9333), see also [Holodomor](https://en.wikipedia.org/wiki/Holodomor).
 
@@ -23,7 +23,7 @@ Another surprising finding is that **the *average* number of born children per w
 
 The year of [**Chernobyl nuclear power plant explosion**](https://en.wikipedia.org/wiki/Chernobyl_disaster) **was the best for the number of survived kids** per woman from 1964 until now, see the figure below.
 
-<img src="output_78_0.png" width="75%">
+<img src="output_80_0.png" width="75%">
 
 Each point is a year.
 
